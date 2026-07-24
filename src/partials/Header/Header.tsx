@@ -15,7 +15,7 @@ function Header() {
             <div
               className="w-10 h-10 rounded-lg overflow-hidden transition-transform group-hover:scale-105"
             >
-              <img src="./images/icon.png" alt="SG" className="w-full h-full object-cover" />
+              <img src="./images/icon.png" alt="AC" className="w-full h-full object-cover" />
             </div>
           </a>
 

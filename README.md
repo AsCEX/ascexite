@@ -112,11 +112,12 @@ section also includes his location and a placeholder for a downloadable résumé
 
 ```text
 my-website-main/
-├── images/
-│   ├── avatar.png
-│   ├── icon.png
-│   ├── square.svg
-│   └── projects/             # Project screenshots grouped by project
+├── public/
+│   └── images/
+│       ├── avatar.png
+│       ├── icon.png
+│       ├── square.svg
+│       └── projects/         # Project screenshots grouped by project
 ├── src/
 │   ├── components/
 │   │   ├── About/
@@ -201,7 +202,7 @@ The production files are generated in the `dist/` directory.
   `src/components/Hero/Hero.tsx`.
 - Add or update projects in the `works` array inside
   `src/components/Works/Works.tsx`.
-- Place project screenshots in `images/projects/<project-name>/` and reference
+- Place project screenshots in `public/images/projects/<project-name>/` and reference
   them from the corresponding project entry.
 - Edit service names, descriptions, and icons in
   `src/components/Services/Services.tsx`.
