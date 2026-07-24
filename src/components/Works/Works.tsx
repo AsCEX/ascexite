@@ -291,12 +291,10 @@ const works: WorkType[] = [
             'ACF',
         ],
         images: [
-            { title: 'Admin Dashboard', url: './images/projects/credebt/dashboard.png'},
-            { title: 'Borrowers Dashboard', url: './images/projects/credebt/borrowers_dashboard.png'},
-            { title: 'Borrowers List', url: './images/projects/credebt/borrowers.png'},
-            { title: 'Loan Details', url: './images/projects/credebt/loan_detail.png'},
-            { title: 'Loan Summary Report', url: './images/projects/credebt/loan_summary_print.png'},
-            { title: 'Loans', url: './images/projects/credebt/loans.png'},
+            { title: 'The Slider', url: './images/projects/acz-slider/demo.png'},
+            { title: 'Widget', url: './images/projects/acz-slider/widget.png'},
+            { title: 'Slides', url: './images/projects/acz-slider/slides.png'},
+            { title: 'Slider Settings', url: './images/projects/acz-slider/slider_settings.png'},
         ]
     },
     {
@@ -319,9 +317,9 @@ const works: WorkType[] = [
             'ACF',
         ],
         images: [
-            { title: 'Admin Dashboard', url: './images/projects/sharedcrumbs/frontpage.png'},
-            { title: 'Borrowers Dashboard', url: './images/projects/sharedcrumbs/archive.png'},
-            { title: 'Borrowers List', url: './images/projects/sharedcrumbs/single.png'},
+            { title: 'Homepage', url: './images/projects/sharedcrumbs/frontpage.png'},
+            { title: 'Archive Page', url: './images/projects/sharedcrumbs/archive.png'},
+            { title: 'Single Page', url: './images/projects/sharedcrumbs/single.png'},
         ]
     },
     {
