@@ -245,6 +245,40 @@ const works: WorkType[] = [
         ]
     },
     {
+        accent: 'orange',
+        tags: ['wordpress'],
+        title: 'Karice Lighting',
+        description: 'Karice is a custom lighting manufacturer specializing in architectural, decorative, and bespoke lighting solutions for commercial and residential spaces. Since 1993, the company has worked with architects, interior designers, and lighting professionals across Canada and the United States, providing services from design development and engineering to manufacturing, certification, and installation support.',
+        highlights: [
+            'Custom architectural and decorative lighting website',
+            'Modern, premium visual design focused on high-end lighting products',
+            'Responsive layout for desktop, tablet, and mobile',
+            'Product and project showcase with strong visual presentation',
+            'Clear navigation for products, capabilities, projects, and company information',
+            'Built to support architects, designers, and commercial clients',
+            'Performance and SEO-focused WordPress setup',
+            'Optimized image presentation for a visually heavy portfolio site',
+            'Contact and inquiry-focused user journey',
+            'Secure hosting, SSL, and CDN/DNS configuration for reliability',
+        ],
+        techStacks: [
+            'Wordpress',
+            'Elementor',
+            'ACF',
+            'WP Rocket',
+            'Rank Math SEO',
+            'WooCommerce',
+            'WP Store Locator',
+            'CloudFlare'
+        ],
+        images: [
+            { title: 'Homepage', url: './images/projects/karice/front.png'},
+            { title: 'About Page', url: './images/projects/karice/archive.png'},
+            { title: 'Pricing', url: './images/projects/karice/theme-options.png'},
+            { title: 'Events Gallery', url: './images/projects/karice/elementor-widgets.png'},
+        ]
+    },
+    {
         accent: 'cyan',
         tags: ['wordpress'],
         title: 'ACZ Elementor Plugin',
@@ -289,6 +323,8 @@ const works: WorkType[] = [
             'Wordpress',
             'Elementor',
             'ACF',
+            'LiteSpeed Cache',
+            'Yoast SEO',
         ],
         images: [
             { title: 'The Slider', url: './images/projects/acz-slider/demo.png'},
@@ -315,6 +351,8 @@ const works: WorkType[] = [
             'Wordpress',
             'Elementor',
             'ACF',
+            'LiteSpeed Cache',
+            'Yoast SEO',
         ],
         images: [
             { title: 'Homepage', url: './images/projects/sharedcrumbs/frontpage.png'},
@@ -340,6 +378,8 @@ const works: WorkType[] = [
             'Wordpress',
             'Elementor',
             'ACF',
+            'LiteSpeed Cache',
+            'Yoast SEO',
         ],
         images: [
             { title: 'Homepage', url: './images/projects/airycreates/front.png'},
